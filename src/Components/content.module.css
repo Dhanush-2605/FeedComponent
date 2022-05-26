@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@500&display=swap');
+.container{
+  
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer button{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    /* background-color: rebeccapurple; */
+    background-color: aqua;
+    border: none;
+
+}
+.footer span{
+    padding: 5px;
+}
+.inside_footer{
+    display: flex;
+    justify-content: space-around;
+}
+.inside_footer button{
+    margin: 10px;
+}
+.after_liked{
+    display: flex;
+    align-items: center;
+    
+}
+.after_liked p{
+    margin: 15px;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container img{
+    height: 300px;
+    width: 400px;
+}
+.container a{
+    cursor: pointer;
+    font-weight: bold;
+}
+.total_comments{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}

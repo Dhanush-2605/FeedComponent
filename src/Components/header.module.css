@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  /* margin: 10px; */
+  justify-content: space-between;
+  /* background-color: rebeccapurple; */
+}
+.inner_container {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-around;
+}
+.inner_container img {
+  height: 40px;
+  width: 40px;
+}
+.inner_container h2 {
+  margin-left: 20px;
+}
+.inner_container h7 {
+  margin-left: 10px;
+  color: gray;
+}
+.inner_container p {
+  color: gray;
+  margin-top: 70px;
+  padding: 10px;
+
+  margin-left: -300px;
+}
+.detail p {
+  margin-top: 30px;
+  font-size: 30px;
+  color: gray;
+}
+.inner_container button {
+  padding: 5px;
+  background-color: rgb(80, 80, 231);
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
